@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-native",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "component/*": ["src/component/*"],
+      "layout/*": ["src/layout/*"],
+      "action/*": ["src/redux/action/*"],
+      "reducer": ["src/redux/reducer"],
+      "store": ["src/redux/store"],
+      "navigation/*": ["src/navigation/*"],
+      "theme/*": ["src/theme/*"],
+      "screen": ["src/screen"],
+      "constant": ["src/shared/constant"],
+      "util": ["src/shared/util"],
+      "type": ["src/shared/type"],
+      "resource/*": ["resource/*"],
+      "model/*": ["src/model/*"],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}

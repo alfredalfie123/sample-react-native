@@ -1,0 +1,12 @@
+{
+  "name": "thucuc",
+  "displayName": "Thu Cuc Beauty",
+  "expo": {
+    "name": "thucuc",
+    "slug": "thucuc",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
